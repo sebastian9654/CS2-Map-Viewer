@@ -1,9 +1,11 @@
 # Counter-Strike 2 Maps Showcase Website
 
-This project is a static website aimed at displaying a collection of Counter-Strike 2 maps. The website utilizes HTML, CSS, JavaScript, PHP, MySQL, and phpMyAdmin as the database management system. The main purpose of this project was to serve as the final project submission for my summer 2023 web programming class.
+This project is a static website aimed at displaying a collection of Counter-Strike 2 maps. The website utilizes HTML, CSS, JavaScript, PHP, and MySQL as the database management system. The main purpose of this project was to serve as the final project submission for my summer 2023 web programming class.
 
 ## Project Overview
 
+## How to Access
+- Project is currently being hosted on my school's Linux Server. Here is the link: [Go to Website]https://codd.cs.gsu.edu/~srodriguez35/cs2_proj/index.php
 ### Features
 - **Map Display:** The website showcases a total of 6 Counter-Strike 2 maps with detailed descriptions and images.
 - **Database Integration:** Utilizes MySQL database managed through phpMyAdmin to store map information such as map names, descriptions, and images.
@@ -29,6 +31,8 @@ To view the website locally or deploy it on a server:
 3. Import the provided MySQL database using phpMyAdmin.
 4. Configure the PHP files to connect to your MySQL database.
 5. Access the website through a web browser.
+
+
 
 ## Credits
 
