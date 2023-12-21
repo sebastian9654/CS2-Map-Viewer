@@ -1,0 +1,189 @@
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    top: 0px;
+  }
+  body {
+    margin: 0px;
+
+  }
+  /* Container holding the image and the text */
+  li a {  /* Links */
+    display: block;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    color: white;
+    margin: 0px;
+    padding: 23px;
+    text-decoration: none;
+    float: right;
+  }
+  li a:hover {
+    background-color: rgb(255, 135, 37);
+    color: black;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  #logo {
+    text-decoration: none;
+    font-family: 'Titillium Web';
+    float: left;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    padding: 16px;
+  }
+  #logo:hover{
+    background-color: rgb(255, 135, 37);
+    color: black;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Titillium Web';
+    font-size: 55px;
+    font-weight: 500;
+  }
+  #browse {
+    padding: 14px 16px;
+    border-radius: 17px; 
+    background-color: black;
+    top: 25%;
+    font-size: large;
+  }
+  #browselink{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0px; 
+    width: fit-content;
+    border-radius: 15px;
+  }
+
+  #inferno {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: black
+  }
+
+  #button {
+    text-decoration: none;
+  }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;   /* Height of the footer */
+  background: rgb(0, 0, 0);
+  font-family: 'Titillium Web';
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  margin: 0;  
+  padding: 0;
+}
+#copy{
+  float: left;
+}
+#logIn{
+  font-family: 'Titillium Web';
+  border-radius: 15px;
+  background-image: linear-gradient(to right, rgba(255, 135, 37, 0.911), rgba(255, 159, 95, 0.795));
+  font-weight: bold;
+  border: 2px black solid;
+  text-align:center;
+  margin: 20px 800px 20px 800px;  
+  padding: 14px 10px; 
+}
+
+.aboutInfo {
+  margin: 50px;
+  text-align: center;
+  font-family: 'Titillium Web';
+  font-style: oblique;
+  font-weight: bold;
+  font-size: large;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{  
+  border: 1px black solid;
+  overflow: hidden;
+  height: 300px;
+  max-height: 35vh;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3); 
+  box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
+
+.box {
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.mapGallery{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(255, 184, 126);
+}
+.all{
+  background-color: black;
+}
+.grid {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#de_inferno{
+  background-image: url(pictures/infernoCS2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#de_dust2{
+  background-image: url(pictures/dust2thumbnail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#de_nuke{
+  background-image: url(pictures/nukethumbnail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#de_mirage{
+  background-image: url(pictures/miragethumbnail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#de_overpass{
+  background-image: url(pictures/overpassThumbnail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#de_ancient{
+  background-image: url(pictures/ancientthumbnail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.grid > div {
+  flex-basis: calc(50% - 40px);
+}

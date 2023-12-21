@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+  <title>Map Gallery</title>
+  <script src="jquery/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATION MENU -->
+    <nav class="nav-links">
+      <div class="menu">
+            <ul>
+                <a id="logo" href="index.php">CS2 Map Explorer</a>
+                <li class="nav-links"><a href="about.html">About Us</a></li>
+                <li class="nav-links"><a href="">Checklist</a></li>
+                <li class="nav-links"><a href="loginPage.php">Log In</a></li>
+            </ul>
+      </div>
+    </nav>
+    <div class = "mapGallery">
+        <h1 style="text-align: center; font-family: 'Titillium Web';">Map Gallery</h1> <hr color="black">
+    </div>
+    <div class = all>
+        <div class = "grid">
+            <div id = de_inferno class = "box box1" ></div>
+            <div id = de_dust2 class = "box box2" ></div>
+            <div id = de_nuke class = "box box3" ></div>
+            <div id = de_mirage class = "box box4" ></div>
+            <div id = de_overpass class = "box box5" ></div>
+            <div id = de_ancient class = "box box6" ></div>
+        </div>
+    </div>
+    
+   
+</body>
+
+</html>
