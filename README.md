@@ -6,7 +6,7 @@ This project is a static website aimed at displaying a collection of Counter-Str
 
 ## How to Access
 - Project is currently being hosted on my school's Linux Server. Here is the link: [Go to Website](https://codd.cs.gsu.edu/~srodriguez35/cs2_proj/index.php).
-- 
+  
 ### Features
 - **Map Display:** The website showcases a total of 6 Counter-Strike 2 maps with detailed descriptions and images.
 - **Database Integration:** Utilizes MySQL database managed through phpMyAdmin to store map information such as map names, descriptions, and images.
