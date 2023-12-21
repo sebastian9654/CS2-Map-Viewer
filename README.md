@@ -1,6 +1,6 @@
 # Counter-Strike 2 Maps Showcase Website
 
-This project is a static website aimed at displaying a collection of Counter-Strike 2 maps. The website utilizes HTML, CSS, JavaScript, PHP, and MySQL as the database management system. The main purpose of this project was to serve as the final project submission for my summer 2023 web programming class.
+This project is a static website aimed at displaying a collection of Counter-Strike 2 maps. This was completed in July, 2023, but I completely forgot to upload this to GitHub, so here it is. The website utilizes HTML, CSS, JavaScript, PHP, and MySQL as the database management system. The main purpose of this project was to serve as the final project submission for my summer 2023 web programming class.
 
 ## Project Overview
 
