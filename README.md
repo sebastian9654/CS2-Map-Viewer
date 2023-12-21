@@ -4,7 +4,7 @@ This project is a static website aimed at displaying a collection of Counter-Str
 
 ## Project Overview
 
-## How to Access
+### How to Access
 - Project is currently being hosted on my school's Linux Server. Here is the link: [Go to Website](https://codd.cs.gsu.edu/~srodriguez35/cs2_proj/index.php).
   
 ### Features
@@ -34,10 +34,9 @@ To view the website locally or deploy it on a server:
 5. Access the website through a web browser.
 
 
-
 ## Credits
 
-This project was solely developed by [Your Name]. Special thanks to [Instructor's Name] for their guidance and support throughout the course.
+This project was solely developed myself. Special thanks to Dr. Joseph for their guidance and support throughout the course.
 
 Feel free to explore the code and contribute if you find any improvements or suggestions!
 
